@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#display {
+    width: 200px;
+    height: 30px;
+    font-size: 24px;
+    text-align: right;
+    padding: 10px;
+    border: 1px solid #e9ae0b;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+}
+
+button[type="button"] {
+    width: 75px;
+    height: 80px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: #786395;
+    cursor: pointer;
+}
+
+button[type="button"]:hover {
+    background-color: #121113;
+}
+
+button[type="button"]:active {
+    background-color: #f3f1f8;
+}
